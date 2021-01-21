@@ -1,0 +1,36 @@
+/* =====Feacher main===== */
+.feacher-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+
+  .item {
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-basis: calc(100% / 4 - 30px);
+  }
+  .item::before {
+    content: '';
+    display: block;
+    height: 120px;
+    margin-bottom: 30px;
+    background: #f5f4fa;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .icon-antena::before {
+    background-image: url(../img/feacher-list/antena.svg);
+  }
+  .icon-clock::before {
+    background-image: url(../img/feacher-list/clock.svg);
+  }
+  .icon-diagram::before {
+    background-image: url(../img/feacher-list/diagram.svg);
+  }
+  .icon-astronaut::before {
+    background-image: url(../img/feacher-list/astronaut.svg);
+  }
+}
