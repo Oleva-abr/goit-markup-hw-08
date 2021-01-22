@@ -1,6 +1,7 @@
 @import 'utils/variables';
-@import 'utils/base';
-@import 'components/container';
+@import 'base/common';
+@import 'base/breakpoints';
+@import 'base/container';
 @import 'components/logo';
 @import 'components/titles';
 @import 'components/header';

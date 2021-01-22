@@ -68,11 +68,28 @@ ul {
 
 /* =====Container sizes===== */
 .container {
-  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
 
 /* ====logo====== */
@@ -893,9 +910,10 @@ ul {
 } */
 .modal-icon {
   position: absolute;
-  top: 45%;
-  left: 0;
-  margin: 0 15px;
+  display: block;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-25%);
 }
 
 .modal-input:focus + .modal-icon {
