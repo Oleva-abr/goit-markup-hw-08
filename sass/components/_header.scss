@@ -53,8 +53,8 @@
 
     position: relative;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-   .site-nav .link::after {
+
+    &::after {
       content: '';
       display: block;
       width: 100%;
@@ -67,10 +67,11 @@
       opacity: 0;
       transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-  
-  .site-nav.item:not(:last-child) {
+  }
+  .item:not(:last-child) {
     margin-right: 50px;
   }
+}
 
 .site-nav .link:hover::after,
 .site-nav .link:focus::after,
@@ -81,7 +82,6 @@
 .site-nav .link:focus,
 .site-nav .current {
   color: $accentColor;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ====Address nav===== */
@@ -93,3 +93,31 @@
     margin-left: 50px;
   }
 }
+
+// .site-nav .link::after {
+//   content: '';
+//   display: block;
+//   width: 100%;
+//   background: $accentColor;
+//   border-radius: 2px;
+//   height: 4px;
+//   position: absolute;
+//   left: 0;
+//   bottom: 0;
+//   opacity: 0;
+//   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+// }
+// .site-nav .link:hover::after,
+// .site-nav .link:focus::after,
+// .site-nav .current::after {
+//   opacity: 1;
+// }
+// .site-nav .link:hover,
+// .site-nav .link:focus,
+// .site-nav .current {
+//   color: $accentColor;
+//   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+// }
+// .site-nav .item:not(:last-child) {
+//   margin-right: 50px;
+// }

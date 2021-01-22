@@ -232,7 +232,7 @@ ul {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav .link link::after {
+.site-nav .link::after {
   content: '';
   display: block;
   width: 100%;
@@ -260,7 +260,6 @@ ul {
 .site-nav .link:focus,
 .site-nav .current {
   color: #2196f3;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ====Address nav===== */
