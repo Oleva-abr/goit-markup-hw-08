@@ -1,4 +1,11 @@
 /* ======What we Do======*/
+.hidden-true {
+  display: none;
+
+  @media screen and (min-width: $desctop) {
+    display: block;
+  }
+}
 .primary-list {
   display: flex;
   flex-wrap: wrap;

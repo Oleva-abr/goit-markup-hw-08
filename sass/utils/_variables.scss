@@ -12,7 +12,10 @@ $bgdButtonColor: #f5f4fa;
 
 /* =====Texts===== */
 .section {
-  padding-bottom: 94px;
+  padding-bottom: 60px;
+  @media screen and (min-width: $desctop) {
+    padding-bottom: 94px;
+  }
 }
 .section p {
   margin-top: 0;

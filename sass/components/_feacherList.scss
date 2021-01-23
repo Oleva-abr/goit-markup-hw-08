@@ -1,25 +1,41 @@
 /* =====Feacher main===== */
 .feacher-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
-
-  .item {
-    margin-left: 30px;
-    margin-top: 30px;
-    flex-basis: calc(100% / 4 - 30px);
+  padding-bottom: 30px;
+  @media screen and(min-width:$tablet) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
   }
-  .item::before {
-    content: '';
-    display: block;
-    height: 120px;
-    margin-bottom: 30px;
-    background: #f5f4fa;
-    border-radius: 4px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+  @media screen and(min-width:$desctop) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+  }
+  .item {
+    margin: 0 auto;
+    // @media screen and(min-width:$tablet) {
+    //   margin-left: 30px;
+    //   margin-top: 30px;
+    //   flex-basis: calc(100% / 2 - 30px);
+    // }
+    // @media screen and(min-width:$desctop) {
+    //   margin-left: 30px;
+    //   margin-top: 30px;
+    //   flex-basis: calc(100% / 4 - 30px);
+    // }
+    &::before {
+      content: '';
+      display: block;
+      height: 120px;
+      margin-bottom: 30px;
+      background: #f5f4fa;
+      border-radius: 4px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
   }
   .icon-antena::before {
     background-image: url(../img/feacher-list/antena.svg);
