@@ -55,6 +55,8 @@
   left: 0;
   width: 100%;
   min-height: 796px;
+  z-index: 100;
+  color: black;
   background: teal;
   &.is-open {
     display: block;
