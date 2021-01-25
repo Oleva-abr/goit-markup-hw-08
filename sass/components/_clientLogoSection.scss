@@ -1,6 +1,7 @@
 /* =====Client logo===== */
 
 .client-logo {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   padding-left: 15px;
@@ -30,8 +31,8 @@
   }
 }
 .client-logo .item-link {
-  max-width: 170px;
-  max-height: 90px;
+  width: 170px;
+  height: 90px;
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
