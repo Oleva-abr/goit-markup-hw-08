@@ -260,7 +260,6 @@ ul {
 
 /*  ======Mobile and desctop nav===== */
 .mobile-nav {
-  position: relative;
   display: flex;
   justify-content: space-between;
   padding: 15px;
@@ -292,14 +291,18 @@ ul {
   display: none;
 }
 
+.icon-close-menu {
+  z-index: 5;
+}
+
 .nav-mobile-content {
   display: none;
   position: absolute;
-  top: 100%;
+  top: 0;
   left: 0;
   width: 100%;
   min-height: 796px;
-  z-index: 100;
+  z-index: 3;
   color: black;
   background: teal;
 }
