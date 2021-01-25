@@ -27,12 +27,37 @@
           aria-controls="menu-container"
           data-menu-button
         >
-          <svg width="24" height="24" aria-label="Переключатель мобильного меню">
+          <svg width="21" height="21" aria-label="Переключатель мобильного меню">
             <use class="icon-close-menu" href="./img/icons/symbol-defs.svg#icon-close"></use>
             <use class="icon-burger-menu" href="./img/icons/symbol-defs.svg#icon-burger-menu"></use>
           </svg>
         </button>
-        <div class="nav-mobile-content is-open" id="menu-container" data-menu>bla-bla-bla</div>
+        <div class="nav-mobile-content is-open" id="menu-container" data-menu>
+          <ul class="mobile-nav-elements">
+            <li class="item">
+              <a href="./index.html" class="link current">Студия</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="link">Портфолио</a>
+            </li>
+            <li class="item"><a href="" class="link">Контакты</a></li>
+          </ul>
+
+          <ul class="mobile-address-nav">
+            <li class="item">
+              <a href="tel:+380961111111" class="phone"> +38 096 111 11 11 </a>
+            </li>
+            <li class="item">
+              <a href="mailto:info@devstudio.com" class="address"> info@devstudio.com </a>
+            </li>
+          </ul>
+          <ul class="social-links">
+            <li class="item"><a href="#" class="item-link">Instagram</a></li>
+            <li class="item"><a href="#" class="item-link">Twitter</a></li>
+            <li class="item"><a href="#" class="item-link">Facebook</a></li>
+            <li class="item"><a href="#" class="item-link">LinkedIn</a></li>
+          </ul>
+        </div>
       </div>
       <nav class="container main-nav">
         <a href="./index.html" class="logo"> <span>Web</span>Studio </a>
@@ -144,7 +169,12 @@
           <h2 class="section-title-primary">Наша команда</h2>
           <ul class="team-list">
             <li class="item">
-              <img src="./img/team/photo1.jpg" alt="фото члена команды" width="270" />
+              <img
+                srcset="./img/team/photo1.jpg 1x, ./img/team/photo1.jpg 2x"
+                src="./img/team/photo1.jpg"
+                alt="фото члена команды"
+                width="270"
+              />
               <div class="card">
                 <h3 class="section-title-secondary">Игорь Демьяненко</h3>
                 <p class="section-team-text">Product Designer</p>
@@ -181,7 +211,12 @@
               </div>
             </li>
             <li class="item">
-              <img src="./img/team/photo2.jpg" alt="фото члена команды" width="270" />
+              <img
+                srcset="./img/team/photo2.jpg 1x, ./img/team/photo2.jpg 2x"
+                src="./img/team/photo2.jpg"
+                alt="фото члена команды"
+                width="270"
+              />
               <div class="card">
                 <h3 class="section-title-secondary">Ольга Репина</h3>
                 <p class="section-team-text">Frontend Developer</p>
@@ -218,7 +253,12 @@
               </div>
             </li>
             <li class="item">
-              <img src="./img/team/photo3.jpg" alt="фото члена команды" width="270" />
+              <img
+                srcset="./img/team/photo3.jpg 1x, ./img/team/photo3.jpg 2x"
+                src="./img/team/photo3.jpg"
+                alt="фото члена команды"
+                width="270"
+              />
               <div class="card">
                 <h3 class="section-title-secondary">Николай Тарасов</h3>
                 <p class="section-team-text">Frontend Developer</p>
@@ -255,7 +295,12 @@
               </div>
             </li>
             <li class="item">
-              <img src="./img/team/photo4.jpg" alt="фото члена команды" width="270" />
+              <img
+                srcset="./img/team/photo4.jpg 1x, ./img/team/photo4.jpg 2x"
+                src="./img/team/photo4.jpg"
+                alt="фото члена команды"
+                width="270"
+              />
               <div class="card">
                 <h3 class="section-title-secondary">Михаил Ермаков</h3>
                 <p class="section-team-text">UI Designer</p>
