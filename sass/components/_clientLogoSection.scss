@@ -55,6 +55,9 @@
   fill: #afb1b8;
 }
 
-.section-logo {
-  padding-top: 94px;
+.section-client-logo {
+  padding-top: 60px;
+  @media screen and(min-width:$desktop) {
+    padding-top: 94px;
+  }
 }

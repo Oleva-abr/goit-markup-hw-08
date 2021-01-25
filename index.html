@@ -18,14 +18,25 @@
   <body>
     <!-- Header main page -->
     <header>
-      <nav class="container main-nav">
+      <div class="mobile-nav container">
         <a href="./index.html" class="logo"> <span>Web</span>Studio </a>
-        <button type="button" class="menu-button is-open" aria-expanded="false" data-menu-button>
+        <button
+          type="button"
+          class="menu-button is-open"
+          aria-expanded="false"
+          aria-controls="menu-container"
+          data-menu-button
+        >
           <svg width="24" height="24" aria-label="Переключатель мобильного меню">
             <use class="icon-close-menu" href="./img/icons/symbol-defs.svg#icon-close"></use>
             <use class="icon-burger-menu" href="./img/icons/symbol-defs.svg#icon-burger-menu"></use>
           </svg>
         </button>
+        <div class="nav-mobile-content is-open" id="menu-container" data-menu>bla-bla-bla</div>
+      </div>
+      <nav class="container main-nav">
+        <a href="./index.html" class="logo"> <span>Web</span>Studio </a>
+
         <ul class="site-nav">
           <li class="item">
             <a href="./index.html" class="link current">Студия</a>
@@ -269,7 +280,7 @@
         </div>
       </section>
 
-      <section class="section container section-logo">
+      <section class="section container section-client-logo">
         <h2 class="section-title-primary">Постоянные клиенты</h2>
         <ul class="client-logo">
           <li class="item">
