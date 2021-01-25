@@ -29,3 +29,10 @@ ul {
   border: 0;
   clip: rect(0 0 0 0);
 }
+
+.section {
+  padding-bottom: 60px;
+  @media screen and (min-width: $desktop) {
+    padding-bottom: 94px;
+  }
+}

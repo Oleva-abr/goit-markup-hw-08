@@ -10,13 +10,12 @@ $titleTextColor: #212121;
 $heroTextColor: #ffffff;
 $bgdButtonColor: #f5f4fa;
 
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1200px;
+
 /* =====Texts===== */
-.section {
-  padding-bottom: 60px;
-  @media screen and (min-width: $desctop) {
-    padding-bottom: 94px;
-  }
-}
+
 .section p {
   margin-top: 0;
 }

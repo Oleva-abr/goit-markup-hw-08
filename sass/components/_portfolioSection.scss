@@ -1,14 +1,20 @@
 /* =====Portfolio list===== */
 .portfolio-list {
-  width: 100%;
-  @media screen and(min-width: $desctop) {
+  margin: 0 auto;
+  padding-bottom: 60px;
+  @media screen and(min-width: $tablet) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: -30px;
+  }
+  @media screen and(min-width: $desktop) {
     display: flex;
     flex-wrap: wrap;
     margin-right: -30px;
     margin-top: -30px;
-    flex-basis: calc(100% / 3 - 30px);
     padding-bottom: 94px;
-    cursor: pointer;
   }
 }
 .product-thumb {
@@ -41,9 +47,18 @@
   opacity: 1;
 }
 .portfolio-list .item {
-  width: 370px;
-  margin: 15px;
-  // margin-top: 30px;
+  @media screen and(min-width: $tablet) {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+    flex-basis: calc(100% / 2 - 30px);
+  }
+  @media screen and(min-width: $desktop) {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+    flex-basis: calc(100% / 3 - 30px);
+  }
 }
 .portfolio-list-actions {
   display: flex;
@@ -62,12 +77,6 @@
   transform: translateY(0);
 }
 
-.item .card {
-  padding: 20px 24px;
-  border: 1px solid #eeeeee;
-  background-color: $heroTextColor;
-}
-
 .portfolio-button {
   display: flex;
   flex-wrap: wrap;
@@ -78,7 +87,7 @@
     justify-content: center;
     padding-bottom: 30px;
   }
-  @media screen and(min-width: $desctop) {
+  @media screen and(min-width: $desktop) {
     padding-bottom: 50px;
     padding-top: 94px;
   }

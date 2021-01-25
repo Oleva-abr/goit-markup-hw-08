@@ -30,7 +30,7 @@
   margin-top: 0;
   margin-bottom: 50px;
 
-  @media screen and (min-width: $desctop) {
+  @media screen and (min-width: $desktop) {
     @include font-size(700, 36px, 42px);
   }
 }
@@ -58,14 +58,14 @@
   font-style: normal;
   @include font-size(900, 26px, 42px);
 
-  @media screen and (min-width: $desctop) {
+  @media screen and (min-width: $desktop) {
     @include font-size(900, 44px, 60px);
   }
 }
 .team-section {
   background: #f5f4fa;
   padding-top: 60px;
-  @media screen and (min-width: $desctop) {
+  @media screen and (min-width: $desktop) {
     padding-top: 94px;
   }
 }

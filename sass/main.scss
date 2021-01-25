@@ -1,7 +1,6 @@
 @import 'utils/variables';
 @import 'utils/mixin';
 @import 'base/common';
-@import 'base/breakpoints';
 @import 'base/container';
 @import 'components/logo';
 @import 'components/titles';
@@ -9,8 +8,8 @@
 @import 'components/buttons';
 @import 'components/feacherList';
 @import 'components/WhatWeDoSection';
-// @import 'components/teamSection';
+@import 'components/teamSection';
 @import 'components/portfolioSection';
-// @import 'components/clientLogoSection';
+@import 'components/clientLogoSection';
 // @import 'components/footer';
 // @import 'components/modal';

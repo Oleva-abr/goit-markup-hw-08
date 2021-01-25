@@ -1,13 +1,14 @@
 /* =====Feacher main===== */
 .feacher-list {
-  padding-bottom: 30px;
+  padding-top: 60px;
   @media screen and(min-width:$tablet) {
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
     margin-top: -30px;
   }
-  @media screen and(min-width:$desctop) {
+  @media screen and(min-width:$desktop) {
+    padding-top: 94px;
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
@@ -15,16 +16,16 @@
   }
   .item {
     margin: 0 auto;
-    // @media screen and(min-width:$tablet) {
-    //   margin-left: 30px;
-    //   margin-top: 30px;
-    //   flex-basis: calc(100% / 2 - 30px);
-    // }
-    // @media screen and(min-width:$desctop) {
-    //   margin-left: 30px;
-    //   margin-top: 30px;
-    //   flex-basis: calc(100% / 4 - 30px);
-    // }
+    @media screen and(min-width:$tablet) {
+      margin-left: 30px;
+      margin-top: 30px;
+      flex-basis: calc(100% / 2 - 30px);
+    }
+    @media screen and(min-width:$desktop) {
+      margin-left: 30px;
+      margin-top: 30px;
+      flex-basis: calc(100% / 4 - 30px);
+    }
     &::before {
       content: '';
       display: block;
