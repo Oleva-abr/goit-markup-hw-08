@@ -305,15 +305,15 @@ ul {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-button .icon-close-menu {
+.menu-button .icon-burger-menu {
   display: none;
 }
 
-.menu-button.is-open .icon-close-menu {
+.menu-button.is-open .icon-burger-menu {
   display: block;
 }
 
-.menu-button.is-open .icon-burger-menu {
+.menu-button.is-open .icon-close-menu {
   display: none;
 }
 
@@ -603,6 +603,10 @@ ul {
 
 .feacher-list .icon-astronaut::before {
   background-image: url(../img/feacher-list/astronaut.svg);
+}
+
+.section-title-secondary.title-uppercase {
+  text-transform: uppercase;
 }
 
 /* ======What we Do======*/
@@ -1109,6 +1113,7 @@ ul {
   .footer-form {
     display: flex;
     align-items: flex-end;
+    text-align: start;
   }
 }
 

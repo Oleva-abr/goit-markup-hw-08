@@ -41,14 +41,14 @@
   right: 16px;
   z-index: 5;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  .icon-close-menu {
+  .icon-burger-menu {
     display: none;
   }
 
-  &.is-open .icon-close-menu {
+  &.is-open .icon-burger-menu {
     display: block;
   }
-  &.is-open .icon-burger-menu {
+  &.is-open .icon-close-menu {
     display: none;
   }
   &:hover,
