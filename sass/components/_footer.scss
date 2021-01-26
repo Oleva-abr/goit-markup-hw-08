@@ -45,8 +45,7 @@
     margin-right: 70px;
   }
 }
-.footer-mail,
-.footer-tel {
+.footer-mail {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -54,6 +53,16 @@
   margin-bottom: 8px;
   @media screen and(min-width:$desktop) {
     margin-bottom: 9px;
+  }
+}
+.footer-tel {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 60px;
+  @media screen and(min-width:$desktop) {
+    margin-bottom: 0;
   }
 }
 
