@@ -40,6 +40,11 @@
     margin-bottom: 9px;
   }
 }
+.address {
+  .footer-address {
+    margin-right: 70px;
+  }
+}
 .footer-mail,
 .footer-tel {
   font-weight: normal;
@@ -86,9 +91,6 @@
   --color1: #ffffff;
   background-color: rgba(33, 150, 243, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.link-footer {
-  margin-left: 70px;
 }
 
 /* ====Footer form===== */
@@ -166,4 +168,9 @@
   color: rgba(255, 255, 255, 0.6);
   padding-left: 16px;
   align-items: center;
+}
+.link-footer {
+  @media screen and(min-width:$desktop) {
+    margin-left: 70px;
+  }
 }

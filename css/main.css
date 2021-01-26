@@ -1004,6 +1004,10 @@ ul {
   }
 }
 
+.address .footer-address {
+  margin-right: 70px;
+}
+
 .footer-mail,
 .footer-tel {
   font-weight: normal;
@@ -1055,10 +1059,6 @@ ul {
   --color1: #ffffff;
   background-color: #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.link-footer {
-  margin-left: 70px;
 }
 
 /* ====Footer form===== */
@@ -1142,6 +1142,12 @@ ul {
   color: rgba(255, 255, 255, 0.6);
   padding-left: 16px;
   align-items: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .link-footer {
+    margin-left: 70px;
+  }
 }
 
 /* ======Modal window====== */
