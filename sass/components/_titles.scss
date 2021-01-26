@@ -47,10 +47,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
-  &-uppercase {
-    text-transform: uppercase;
-  }
 }
 
 .section-title-primary {
@@ -86,6 +82,7 @@
   margin-top: 0;
   margin-bottom: 0;
   font-style: normal;
+  text-transform: uppercase;
   @include font-size(900, 26px, 42px);
 
   @media screen and (min-width: $desktop) {

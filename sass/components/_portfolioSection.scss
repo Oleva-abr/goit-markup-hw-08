@@ -1,4 +1,10 @@
 /* =====Portfolio list===== */
+.portfolio-section {
+  padding-top: 60px;
+  @media screen and (min-width: $desktop) {
+    padding-top: 94px;
+  }
+}
 .portfolio-list {
   margin: 0 auto;
   padding-bottom: 60px;
@@ -81,16 +87,16 @@
 .portfolio-button {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 
-  padding-top: 60px;
+  // padding-top: 60px;
   @media screen and(min-width: $tablet) {
     justify-content: center;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
   }
   @media screen and(min-width: $desktop) {
     padding-bottom: 50px;
-    padding-top: 94px;
+    // padding-top: 94px;
   }
   .item {
     margin-bottom: 15px;

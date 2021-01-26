@@ -190,9 +190,12 @@
 
 /* ====Address nav===== */
 .address-nav {
-  margin-left: 84px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
   @media screen and(min-width:$desktop) {
     display: flex;
+    flex-direction: row;
     margin-left: auto;
   }
   .item + .item {
