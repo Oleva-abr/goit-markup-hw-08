@@ -800,6 +800,10 @@ ul {
   opacity: 1;
 }
 
+.portfolio-list .item {
+  margin-top: 30px;
+}
+
 @media screen and (min-width: 768px) {
   .portfolio-list .item {
     margin-left: 15px;
